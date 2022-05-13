@@ -416,10 +416,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/Lucifer_filter_bot?startgroup=true')
+            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/sanufilterv1_bot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/kunjappansupportez')
+            InlineKeyboardButton('🤖 MOVIE REQUEST GROUP', url='https://t.me/sanusmovies')
             ],[
             InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
@@ -430,7 +430,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "help":
+    elif query.data == "help":InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/sanufilterv1_bot?startgroup=true')
+            ],[
+            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🤖 MOVIE REQUEST GROUP', url='https://t.me/sanusmovies')
+
         buttons = [[
             InlineKeyboardButton('🙂 Mᴀɴᴜᴇʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('🤓 Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data='autofilter')
@@ -449,8 +453,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/kunjappansupportez'),
-            InlineKeyboardButton('💜 Sᴏᴜʀᴄᴇ', callback_data='source')
+            InlineKeyboardButton('🤖 OUR GROUP', url='https://t.me/sanusmovies'),
+            InlineKeyboardButton('💜 Our channel', url='https://t.me/+wYmJK4O7Di1lZWE1')
             ],[
             InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),

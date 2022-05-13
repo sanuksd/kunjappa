@@ -11,11 +11,11 @@ class script(object):
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>ᴺᴼᵀᴱ:</b>
-- <a href='@sanufilterv1_bot'>ʟᴜᴄɪғᴇʀ</a> Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.  
-- Sᴏᴜʀᴄᴇ - <a href='https://t.me/sanusmovies'>Cʟɪᴄᴋ Mᴇ</a>
+- <a href='@sanufilterv1_bot'>Kunjappan</a> Is Not A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.  
+- Group - <a href='https://t.me/sanusmovies'>Cʟɪᴄᴋ Mᴇ</a>
 
-<b>Dᴇᴠs:</b>
-- <a href=https://t.me/+wYmJK4O7Di1lZWE1>Tᴇᴀᴍ ᴋᴜɴᴊᴀᴘᴘᴀɴ</a>"""
+<b>Channel:</b>
+- <a href=https://t.me/+wYmJK4O7Di1lZWE1>MALAYALAM MOVIES</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message

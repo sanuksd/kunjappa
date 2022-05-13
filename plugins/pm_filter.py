@@ -430,11 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "help":InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/sanufilterv1_bot?startgroup=true')
-            ],[
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 MOVIE REQUEST GROUP', url='https://t.me/sanusmovies')
-
+    elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('🙂 Mᴀɴᴜᴇʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('🤓 Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data='autofilter')

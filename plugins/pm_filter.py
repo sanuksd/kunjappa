@@ -420,7 +420,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 MOVIE REQUEST GROUP', url='https://t.me/sanusmovies'),
-            InlineKeyboardButton('🤖 NEED SUPPORT❗❗', url='https://t.me/sanumovieowner)
             ],[
             InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about'),

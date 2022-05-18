@@ -41,6 +41,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 MOVIE REQUEST GROUP', url='https://t.me/sanusmovies'),
+            InlineKeyboardButton('🤖 SUPPORT', url='https://t.me/sanumovieowner'),
             ],[
             InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
@@ -67,11 +68,11 @@ async def start(client, message):
             ]
         ]
 
-        if message.command[1] != "🔰 JOIN OUR CHANNEL 🔰":
+        if message.command[1] != "🔰 JOIN OUR MOVIE TEAM 🔰":
             btn.append([InlineKeyboardButton(" 🔄 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join My Movie Group then click try again to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -82,6 +83,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 MOVIE REQUEST GROUP', url='https://t.me/sanusmovies'),
+            InlineKeyboardButton('🤖 SUPPORT', url='https://t.me/sanumovieowner'),
             ],[
             InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')

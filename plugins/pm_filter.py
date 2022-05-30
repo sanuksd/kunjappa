@@ -128,12 +128,15 @@ async def next_page(bot, query):
             [InlineKeyboardButton("👨‍🦯 Ⓑ︎Ⓐ︎Ⓒ︎Ⓚ︎", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📖 𝑝𝑎𝑔𝑒𝑠 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
-        btn.append([InlineKeyboardButton(f"📝 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("ɴᴇxᴛ 🚸", callback_data=f"next_{req}_{key}_{n_offset}")])
+        btn.append([InlineKeyboardButton(f"📝 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("ɴᴇxᴛ 🚸", callback_data=f"next_{req}_{key}_{n_offset}")]
+elif off_set is None:
+        btn.append([InlineKeyboardButton("🔰 join my movie team 🔰",url="https://t.me/+Qb_WFOWoi3VkYTEx")])
     else:
         btn.append(
             [
                 InlineKeyboardButton("👨‍🦯 ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"📝 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+                InlineKeyboardButton("🔰 join my movie team 🔰",url="https://t.me/+Qb_WFOWoi3VkYTEx"),
                 InlineKeyboardButton("ᑎᗴ᙭T ➡️", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )

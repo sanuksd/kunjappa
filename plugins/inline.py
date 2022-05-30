@@ -17,8 +17,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='നിങ്ങൾ ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്തിരിക്കണം ജോയിൻ ചെയ്യാൻ Join Channel എന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്യാവുന്നതാണ്
-ജോയിൻ ചെയ്ത ശേഷം Try Again എന്ന ബട്ടണിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ ഫയൽ അയച്ചു തരുന്നതാണ്',
+                           switch_pm_text='Ningalkk ee movie venemenkil ningal njagalude  channel join avanam. Athinu thazhe kaanunna (JOIN CHANNEL) enna button click cheyyuka. Then click try again you will get file',
                            switch_pm_parameter="subscribe")
         return
 

@@ -72,8 +72,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton(" 🔄 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**🗣 നിങ്ങൾ ചോദിക്കുന്ന സിനിമകൾ നിങ്ങൾക്ക് ലഭിക്കണം എന്നുണ്ടെങ്കിൽ നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്തിരിക്കണം.ജോയിൻ ചെയ്യാൻ (📢 Join Channel 📢) എന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്യാവുന്നതാണ്.
-🗣 ജോയിൻ ചെയ്ത ശേഷം (🔄 Try Again 🔄) എന്ന ബട്ടണിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ ഫയൽ അയച്ചു തരുന്നതാണ്..😍**",
+            text="**Ningalkk ee movie venemenkil ningal njagalude  channel join avanam. Athinu thazhe kaanunna (JOIN CHANNEL enna button click cheyyuka Then click (TRY AGAIN) you will get file**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )

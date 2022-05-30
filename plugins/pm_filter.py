@@ -97,9 +97,6 @@ async def next_page(bot, query):
     if SINGLE_BUTTON:
         btn = [
             [
-                InlineKeyboardButton("🔰 join my movie team 🔰",url="https://t.me/+Qb_WFOWoi3VkYTEx"),
-            ],
-            [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),

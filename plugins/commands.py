@@ -72,7 +72,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton(" 🔄 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Ningalkk ee movie venemenkil ningal njagalude  channel join avanam. Athinu thazhe kaanunna (JOIN CHANNEL enna button click cheyyuka Then click (TRY AGAIN) you will get file**",
+            text="**Ningalkk ee movie venemenkil ningal njagalude  channel join avanam. Athinu thazhe kaanunna (JOIN CHANNEL) enna button click cheyyuka Then click (TRY AGAIN) you will get file**(WATCH HOW TO USE : https://t.me/sanufilterv1_botgrp/8)",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )

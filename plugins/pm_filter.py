@@ -131,11 +131,11 @@ async def next_page(bot, query):
 
         [ 
 
-            InlineKeyboardButton('💜 Our channel', url='https://t.me/+wYmJK4O7Di1lZWE1'),
+            InlineKeyboardButton('💜CHANNEL', url='https://t.me/+wYmJK4O7Di1lZWE1'),
 
-            InlineKeyboardButton('🤖 OUR GROUP', url='https://t.me/sanusmovies'),
+            InlineKeyboardButton('🤖GROUP', url='https://t.me/sanusmovies'),
 
-            InlineKeyboardButton('🥺 Hᴇʟᴘ', url=f"https://t.me/sanumovieowner"),
+            InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot"),
 
         ]
 
@@ -647,9 +647,9 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1,
         [ 
-            InlineKeyboardButton('💜 Our channel', url='https://t.me/+wYmJK4O7Di1lZWE1'),
-            InlineKeyboardButton('🤖 OUR GROUP', url='https://t.me/sanusmovies'),
-            InlineKeyboardButton('🥺 Hᴇʟᴘ', url=f"https://t.me/sanumovieowner"),
+            InlineKeyboardButton('💜CHANNEL', url='https://t.me/+wYmJK4O7Di1lZWE1'),
+            InlineKeyboardButton('🤖GROUP', url='https://t.me/sanusmovies'),
+            InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot"),
         ]
     )
 

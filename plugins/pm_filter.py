@@ -640,6 +640,19 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
 
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'♨️ {search} ♨️ ',url='https://t.me/sanufilterv1_bot')
+        ]
+    )
+    btn.insert(1,
+        [ 
+            InlineKeyboardButton('💜 Our channel', url='https://t.me/+wYmJK4O7Di1lZWE1'),
+            InlineKeyboardButton('🤖 OUR GROUP', url='https://t.me/sanusmovies'),
+            InlineKeyboardButton('🥺 Hᴇʟᴘ', url=f"https://t.me/sanumovieowner"),
+        ]
+    )
+
     if offset != "":
         key = f"{message.chat.id}-{message.message_id}"
         BUTTONS[key] = search

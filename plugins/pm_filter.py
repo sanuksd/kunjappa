@@ -137,6 +137,8 @@ async def next_page(bot, query):
 
             InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot"),
 
+            InlineKeyboardButton(f'ғɪʟᴇs: {len(files)} ', 'dupe'),
+
         ]
 
     )
@@ -650,6 +652,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton('💜CHANNEL', url='https://t.me/+wYmJK4O7Di1lZWE1'),
             InlineKeyboardButton('🤖GROUP', url='https://t.me/sanusmovies'),
             InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot"),
+            InlineKeyboardButton(f'ғɪʟᴇs: {len(files)} ', 'dupe'),
         ]
     )
 

@@ -135,9 +135,17 @@ async def next_page(bot, query):
 
             InlineKeyboardButton('🤖GROUP', url='https://t.me/sanusmovies'),
 
-            InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot"),
-
             InlineKeyboardButton(f'ғɪʟᴇs: {len(files)} ', 'dupe'),
+
+        ]
+
+    )
+
+    btn.insert(2, 
+
+        [
+
+            InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot")
 
         ]
 
@@ -651,9 +659,17 @@ async def auto_filter(client, msg, spoll=False):
         [ 
             InlineKeyboardButton('💜CHANNEL', url='https://t.me/+wYmJK4O7Di1lZWE1'),
             InlineKeyboardButton('🤖GROUP', url='https://t.me/sanusmovies'),
-            InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot"),
             InlineKeyboardButton(f'ғɪʟᴇs: {len(files)} ', 'dupe'),
         ]
+    )
+    btn.insert(2, 
+
+        [
+
+            InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot")
+
+        ]
+
     )
 
     if offset != "":

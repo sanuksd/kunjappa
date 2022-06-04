@@ -171,15 +171,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton("ᑎᗴ᙭T ➡️", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        btn.insert(3, 
-
-        [
-
-            InlineKeyboardButton(f'♨️ {🔰@sanusmovies🔰} ♨️ ','dupe')
-
-        ]
-
-    )
+        
     try:
         await query.edit_message_reply_markup( 
             reply_markup=InlineKeyboardMarkup(btn)
@@ -679,16 +671,7 @@ async def auto_filter(client, msg, spoll=False):
 
         ]
 
-    )
-    btn.insert(3, 
-
-        [
-
-            InlineKeyboardButton(f'♨️ {🔰@sanusmovies🔰} ♨️ ','dupe')
-
-        ]
-
-    )
+   
 
     if offset != "":
         key = f"{message.chat.id}-{message.message_id}"

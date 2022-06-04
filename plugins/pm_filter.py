@@ -670,7 +670,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton('SUPPORT', url=f"https://t.me/Malayalammoviesupport_bot")
 
         ]
-
+   )
    
 
     if offset != "":

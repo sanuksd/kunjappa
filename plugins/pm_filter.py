@@ -175,7 +175,7 @@ async def next_page(bot, query):
 
         [
 
-            InlineKeyboardButton(f'♨️ {group_name} ♨️ ','dupe')
+            InlineKeyboardButton(f'♨️ {🔰@sanusmovies🔰} ♨️ ','dupe')
 
         ]
 
@@ -684,7 +684,7 @@ async def auto_filter(client, msg, spoll=False):
 
         [
 
-            InlineKeyboardButton(f'♨️ {group_name} ♨️ ','dupe')
+            InlineKeyboardButton(f'♨️ {🔰@sanusmovies🔰} ♨️ ','dupe')
 
         ]
 

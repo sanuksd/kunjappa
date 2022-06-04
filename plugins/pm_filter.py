@@ -680,6 +680,15 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     )
+    btn.insert(3, 
+
+        [
+
+            InlineKeyboardButton(f'♨️ {group_name} ♨️ ','dupe')
+
+        ]
+
+    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.message_id}"

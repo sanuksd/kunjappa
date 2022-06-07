@@ -453,9 +453,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url='http://t.me/sanufilterv1_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Hᴇʀᴇ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 MOVIE REQUEST GROUP', url='https://t.me/sanusmovies'),
-            InlineKeyboardButton('🤖 SUPPORT', url='https://t.me/sanumovieowner'),
+            InlineKeyboardButton('⚓¢нαииєℓ⚓', url='https://t.me/+wYmJK4O7Di1lZWE1'),
+            InlineKeyboardButton('⚓gяσυρ⚓', url='https://t.me/sanusmovies'),
+            ],[
+            InlineKeyboardButton('⚙️ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ⚙️', url='https://t.me/Malayalammoviesupport_bot'),
             ],[
             InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about'),
@@ -486,8 +487,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 OUR GROUP', url='https://t.me/sanusmovies'),
-            InlineKeyboardButton('💜 Our channel', url='https://t.me/+wYmJK4O7Di1lZWE1')
+            InlineKeyboardButton('⚓gяσυρ⚓', url='https://t.me/sanusmovies'),
+            InlineKeyboardButton('⚓¢нαииєℓ⚓', url='https://t.me/+wYmJK4O7Di1lZWE1')
             ],[
             InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('🥺 Hᴇʟᴘ', callback_data='help'),

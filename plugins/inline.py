@@ -91,7 +91,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('Search again', switch_inline_query_sanufilterv1_bot=query)
+            InlineKeyboardButton('Easy way to find movie', url=https://t.me/sanusmovies)
         ]
         ]
     return InlineKeyboardMarkup(buttons)

@@ -145,8 +145,7 @@ async def next_page(bot, query):
 
         [
 
-            InlineKeyboardButton('█▀ █░█ █▀█ █▀█ █▀█ █▀█ ▀█▀
-▄█ █▄█ █▀▀ █▀▀ █▄█ █▀▄ ░█░', url=f"https://t.me/Malayalammoviesupport_bot")
+            InlineKeyboardButton('𝐃𝐢𝐝𝐧'𝐭 𝐠𝐞𝐭 𝐦𝐨𝐯𝐢𝐞𝐬 ? 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐚𝐝𝐦𝐢𝐧', url=f"https://t.me/Malayalammoviesupport_bot")
 
         ]
 
@@ -669,8 +668,7 @@ async def auto_filter(client, msg, spoll=False):
 
         [
 
-            InlineKeyboardButton('█▀ █░█ █▀█ █▀█ █▀█ █▀█ ▀█▀
-▄█ █▄█ █▀▀ █▀▀ █▄█ █▀▄ ░█░', url=f"https://t.me/Malayalammoviesupport_bot")
+            InlineKeyboardButton('𝐃𝐢𝐝𝐧'𝐭 𝐠𝐞𝐭 𝐦𝐨𝐯𝐢𝐞𝐬 ? 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐚𝐝𝐦𝐢𝐧', url=f"https://t.me/Malayalammoviesupport_bot")
 
         ]
    )

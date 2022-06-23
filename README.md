@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="logo.jpg" alt="kunajppan2.0 Logo">
+  <img src="cute-robot-waving-hand-cartoon-character-science-technology-isolated_138676-3155.jpg" alt="kunajppan2.0 Logo">
 </p>
 <h1 align="center">
-  <b>kunjappan 2.0</b>
+  <b>🅰🅽🅳🆁🅾🅸🅳    🅺🆄🅽🅹🅰🅿🅿🅰🅽</b>
 </h1>
 
 
